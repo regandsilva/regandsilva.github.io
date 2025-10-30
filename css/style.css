@@ -3,7 +3,7 @@ body {
     font-family: 'Rosemarie', serif;
     margin: 0;
     padding: 0;
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: linear-gradient(135deg, #0f2027 0%, #203a43 50%, #2c5364 100%);
     color: #333;
     line-height: 1.6;
     min-height: 100vh;
@@ -11,11 +11,11 @@ body {
 
 /* Header */
 header {
-    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    background: linear-gradient(135deg, #1a4d5c 0%, #2a7f8f 100%);
     color: #fff;
     padding: 3rem 1rem;
     text-align: center;
-    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
 }
 
 header h1 {
@@ -72,14 +72,14 @@ main {
 
 .app-card:hover {
     transform: translateY(-10px) scale(1.02);
-    box-shadow: 0 20px 40px rgba(102, 126, 234, 0.4);
-    border-color: #667eea;
+    box-shadow: 0 20px 40px rgba(42, 127, 143, 0.4);
+    border-color: #2a7f8f;
 }
 
 .app-card h3 {
     margin-top: 0;
     font-size: 1.8rem;
-    color: #667eea;
+    color: #2a7f8f;
     font-weight: 700;
 }
 
